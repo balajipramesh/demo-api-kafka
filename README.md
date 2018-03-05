@@ -104,9 +104,7 @@ To execute this, run: `gulp webserver`
 
 ### Define server configuration
 
-Copy the sample `default.sampl.json` and rename it to `default.json`
-
-Override the below configuration keys with appropriate values:
-
-- `ip_address_kafka_server` - IP Address on which zookeeper and kafka is running. If running locally, in most cases can define the value to be `localhost`
-- `client_port` - Port at which the clients will connect zookeeper. If running with default zookeper properties or the one attached in this project, set port to `2181`.
+* Copy the sample `default.sampl.json` and rename it to `default.json`
+* Override the below configuration keys with appropriate values:
+  * `ip_address_kafka_server` - IP Address on which zookeeper and kafka is running. If running locally, in most cases can define the value to be `localhost`
+  * `client_port` - Port at which the clients will connect zookeeper. If running with default zookeper properties or the one attached in this project, set port to `2181`.
