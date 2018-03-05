@@ -39,19 +39,9 @@ Gulp is the task runner used by this project. The following Gulp tasks are avail
 
 #### clean
 
-The clean task will remove the dist directory.
-
-To execute this, run: gulp clean
-
-###### Dependency tasks
-
-none
-
-#### clean
-
 The `clean` task will remove the `dist` directory.
 
-To execute this, run: gulp clean
+To execute this, run: `gulp clean`
 
 ###### Dependency tasks
 
@@ -61,7 +51,7 @@ none
 
 The `copy` task will copy yaml file into `dist` directory.
 
-To execute this, run: gulp copy
+To execute this, run: `gulp copy`
 
 ###### Dependency tasks
 
@@ -71,7 +61,7 @@ none
 
 The `tslink` task checks TypeScript code for readability, maintainability, and functionality errors.
 
-To execute this, run: gulp tslint
+To execute this, run: `gulp tslint`
 
 ###### Dependency tasks
 
