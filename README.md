@@ -16,7 +16,17 @@ Once you have `nodejs` and `npm` installed. Download or clone the project. On pr
 
 Note: The project also contains Apache Kafka, which can also be downloaded from https://kafka.apache.org/downloads 
 
-## Building
+# Launch Kafka and Zookeeper
+
+[Kafka](https://kafka.apache.org/quickstart) uses ZooKeeper so you need to first start a ZooKeeper server.
+
+Run: `zookeeper-run.bat`
+
+Now start the Kafka server.
+
+Run: `kafka-run.bat`
+
+## Build and Launch micro-service
 
 This project uses Gulp. If Gulp is already installed globally, you are ready to go. If not, it can be installed globally by running: `npm install -g gulp`
 
