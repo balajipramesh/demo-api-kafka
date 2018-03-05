@@ -1,0 +1,63 @@
+swagger: '2.0'
+info:
+  title: Demo Kafka
+  description: API definition for the Demo Kafka.
+  version: 1.0.0
+basePath: /demo/v1
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /message:
+    post:
+      operationId: post-message_postDemoMessage
+      summary: Send a demo message	
+      parameters:
+        - name: payload
+          in: body
+          description: Details of the message
+          required: true
+          schema:
+            $ref: '#/definitions/DemoMessage'
+      responses:
+        '200':
+          $ref: '#/responses/Successful'
+        '400':
+          $ref: '#/responses/Unsuccessful'
+        '503':
+          $ref: '#/responses/Error'
+responses:
+  Successful:
+    description: successful
+  Unsuccessful:
+    description: unsuccessful
+  Error:
+    description: service unavailable
+    schema:
+      $ref: '#/definitions/Error'
+definitions:
+  DemoMessage:
+    description: Demo Message
+    required:
+    - to
+    - subject
+    - content
+    properties:
+      to:
+        type: string
+        description: Message addressed to
+      subject:
+        type: string
+        description: Subject of the message
+      content:
+        type: string
+        description: Message body
+  Error:
+    type: object
+    additionalProperties: true
+    properties:
+      message:
+        type: string
+      details:
+        type: object

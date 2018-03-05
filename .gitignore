@@ -1,0 +1,31 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.zip
+!dist/*.zip
+*.vi
+*~
+
+# OS or Editor folders
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.vscode
+.DS_Store
+.idea/
+.scannerwork/
+.tmproj
+Desktop.ini
+
+# Folders to ignore
+/node_modules
+/typings
+/dist
+/coverage
+/config/default.json
+/build
+/target

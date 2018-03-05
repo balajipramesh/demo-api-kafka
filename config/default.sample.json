@@ -1,0 +1,21 @@
+{
+  "env" : "default",
+  "port": 3129,
+  "swagger": {
+    "yaml": "../dist/src/api.yaml",
+    "controllers": "../dist/src/actions"
+  },
+  "log": {
+    "level": "info",
+    "name": "demo-kafka"
+  },
+  "kafka": {
+    "connectionString": "<ip_address_kafka_server>:<port>",
+    "clientID": "demo-kafka",
+    "consumerGroupID": "demo-kafka-consumer-group",
+    "topics": {
+      "consumer": "demo-consumer",
+      "producer": "demo-producer"
+    }
+  }
+}
