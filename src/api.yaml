@@ -12,7 +12,10 @@ paths:
   /message:
     post:
       operationId: post-message_postDemoMessage
-      summary: Send a demo message	
+      summary: Send a demo message
+      description: Send a demo message
+      tags:
+        - message
       parameters:
         - name: payload
           in: body

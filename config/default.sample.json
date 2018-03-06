@@ -10,7 +10,7 @@
     "name": "demo-kafka"
   },
   "kafka": {
-    "connectionString": "<ip_address_kafka_server>:<port>",
+    "connectionString": "<kafka_ip_address>:<client_port>",
     "clientID": "demo-kafka",
     "consumerGroupID": "demo-kafka-consumer-group",
     "topics": {
