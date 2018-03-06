@@ -148,7 +148,7 @@ Open a browser and navigate to http://localhost:3129/docs/
 }
 ```
 * Click Execute
- * Notice on `kafka_start_consumer` console the message posted here would be relayed back there.
+ * Notice on `kafka_start_consumer` console the message posted via API would be relayed back there.
 
 ## Send message on kafka topic
 
