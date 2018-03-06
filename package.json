@@ -1,10 +1,10 @@
 {
-  "name": "demo-kafka",
+  "name": "demo-api-kafka",
   "version": "0.0.0",
   "description": "Demonstration of Kafka Messaging on Node",
   "repository": {
     "type": "git",
-    "url": "https://github.com/balajipramesh/demo-kafka"
+    "url": "https://github.com/balajipramesh/demo-api-kafka.git"
   },
   "private": true,
   "license": "UNLICENSED",
