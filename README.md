@@ -10,7 +10,7 @@ The project is a micro-web-service built and deployed based on the below tech st
 * NodeJS
 * npm
 
-# Launch Kafka and Zookeeper
+## Launch Kafka and Zookeeper
 
 Kafka uses ZooKeeper so you need to first start a ZooKeeper server. Download [Kafka Scala 2.12](https://kafka.apache.org/downloads)
 
@@ -24,7 +24,7 @@ Move the below list of `bat` files from the project location to `<kafka_installa
 * kafka_start_producer.bat
 * kafka_start_consumer.bat
 
-## Order of execution
+### Order of execution
 
 * Start zookeeper. Run: `zookeeper-run.bat`
 * Start kafka. Run: `kafka_run.bat`
