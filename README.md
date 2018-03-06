@@ -144,7 +144,7 @@ Open a browser and navigate to http://localhost:3129/docs/
 {
   "to": "balajipr",
   "subject": "About demo",
-  "content": "We loved your demo and would like to meet with you!"
+  "content": "Demo of Kafka messaging via RESTful API"
 }
 ```
 * Click Execute
